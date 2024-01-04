@@ -6,17 +6,10 @@ Public NodeDllPath As String
 Public Sub wke_api_init()
     If IsInitWkeApi = True Then Exit Sub
     
-    Dim TmpNodePath As String, TmpAppPath As String
-    '------------------------------------
-    TmpAppPath = App.path
-    If Right(TmpAppPath, 1) <> "\" Then TmpAppPath = TmpAppPath & "\"
-    '------------------------------------
+    NodeDllPath = "includes\node.dll"
     
-    TmpNodePath = TmpAppPath & "node.dll"
-    NodeDllPath = "node.dll"
-    
-    If Dir(TmpNodePath) = "" Then
-        MsgBox "node.dll 不存在", vbSystemModal
+    If Dir(NodeDllPath) = "" Then
+        MsgBox "node.dll 不存在: " & NodeDllPath, vbSystemModal
         IsInitWkeApi = False
         Exit Sub
     End If

@@ -19,14 +19,13 @@ Path32="Build"
 Command32=""
 Name="SBrowser_G"
 HelpContextID="0"
-CompatibleMode="2"
+CompatibleMode="1"
 CompatibleEXE32="Build\SBrowser_G.ocx"
-VersionCompatible32="1"
 MajorVer=2
 MinorVer=0
 RevisionVer=3
 AutoIncrementVer=0
-ServerSupportFiles=1
+ServerSupportFiles=0
 VersionCompanyName="aaaa"
 CompilationType=0
 OptimizationType=0
@@ -48,6 +47,7 @@ UseExistingBrowser=0
 
 [MS Transaction Server]
 AutoRefresh=1
+
 [AmicForVB]
 XPSTYLE=0
 DLLOUT=0
