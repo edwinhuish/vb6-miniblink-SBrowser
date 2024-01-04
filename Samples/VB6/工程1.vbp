@@ -1,7 +1,7 @@
 Type=Exe
 Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\Windows\SysWOW64\stdole2.tlb#OLE Automation
-Object={AC825E2C-C601-4FB4-B659-1758FB6A278E}#2.0#0; SBrowser_G.ocx
 Form=Form1.frm
+Object={AC825E2C-C601-4FB4-B659-1758FB6A278E}#4.0#0; SBrowser_G.ocx
 IconForm="Form1"
 Startup="Form1"
 ExeName32="¹¤³Ì1.exe"
@@ -34,3 +34,14 @@ DebugStartupOption=0
 
 [MS Transaction Server]
 AutoRefresh=1
+[AmicForVB]
+XPSTYLE=0
+DLLOUT=0
+EXPORT=
+ASMCODE=0
+ENTRY=
+ICONFILE=
+BOOLICON=0
+SUBSYSTEM=0
+BOOLLOADER=0
+BOOLGC=0
